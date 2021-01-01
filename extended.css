@@ -1,0 +1,11 @@
+html body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center; }
+
+/*# sourceMappingURL=extended.css.map */

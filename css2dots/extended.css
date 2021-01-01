@@ -1,0 +1,80 @@
+html body, html body .header-title, html body .footer-menu, html body .footer-menu .home,
+html body .footer-menu .shop,
+html body .footer-menu .cart,
+html body .footer-menu .profile,
+html body .footer-menu .menu, html body .page .tea-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center; }
+
+html body .header-title {
+  width: 100%;
+  height: 66px;
+  top: 0;
+  position: sticky;
+  border-radius: 0px 0px 33% 33%;
+  font-size: 32px;
+  background-color: black;
+  color: green; }
+html body .footer-menu {
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed; }
+  html body .footer-menu .home,
+  html body .footer-menu .shop,
+  html body .footer-menu .cart,
+  html body .footer-menu .profile,
+  html body .footer-menu .menu {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    transition: all 0.2s; }
+  html body .footer-menu .home:hover,
+  html body .footer-menu .shop:hover,
+  html body .footer-menu .cart:hover,
+  html body .footer-menu .profile:hover,
+  html body .footer-menu .menu:hover {
+    background-color: green;
+    color: white;
+    transition: all 0.2s; }
+  html body .footer-menu i {
+    font-size: 32px;
+    color: white; }
+  html body .footer-menu i:hover {
+    color: white; }
+  html body .footer-menu .home:active,
+  html body .footer-menu .shop:active,
+  html body .footer-menu .cart:active,
+  html body .footer-menu .profile:active,
+  html body .footer-menu .menu:active {
+    background-color: white;
+    transition: all 0s; }
+    html body .footer-menu .home:active i,
+    html body .footer-menu .shop:active i,
+    html body .footer-menu .cart:active i,
+    html body .footer-menu .profile:active i,
+    html body .footer-menu .menu:active i {
+      color: green; }
+  html body .footer-menu i:active {
+    color: black; }
+html body .page .main-wall {
+  scroll-behavior: smooth;
+  z-index: -10;
+  margin-top: -350px;
+  margin-right: 200px;
+  position: relative; }
+html body .page .tea-section .tea-image {
+  min-width: 320px;
+  height: auto; }
+
+/*# sourceMappingURL=extended.css.map */

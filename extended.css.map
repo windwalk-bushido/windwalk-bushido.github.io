@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,SACA;EACQ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK;EAEZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;EAEnB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,MAAM",
+"sources": ["css/template.scss"],
+"names": [],
+"file": "extended.css"
+}
