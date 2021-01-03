@@ -1,0 +1,14 @@
+<blockquote> add
+test possible html codes... <br>, list etc.. :)
+
+Email subscription
+RSS feed
+Print + Copy link only!
+
+Comment box
+	username
+	time n date
+	post text
+		comments must be approved
+
+Add tags in blogpost (so you can create "playlist" of posts)
