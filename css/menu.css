@@ -1,0 +1,105 @@
+html body, html body .header-title, html body .footer-menu, html body .footer-menu .home,
+html body .footer-menu .shop,
+html body .footer-menu .cart,
+html body .footer-menu .profile,
+html body .footer-menu .menu, html body .wall {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center; }
+
+@font-face: {
+  font-family: Iosevka;
+  src: url(Iosevka/iosevka-extendedmedium.ttf); }
+html {
+  background-color: #2e4052ff; }
+  html p {
+    font-family: Iosevka; }
+  html ::selection {
+    color: #ffc857ff;
+    background-color: #000000; }
+  html body .header-title {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 82px;
+    color: #FFFFFF;
+    background-color: #343A40;
+    font-family: "Monaco", monospace;
+    font-size: 32px; }
+  html body .footer-menu {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #343A40; }
+    html body .footer-menu .home,
+    html body .footer-menu .shop,
+    html body .footer-menu .cart,
+    html body .footer-menu .profile,
+    html body .footer-menu .menu {
+      width: 64px;
+      height: 64px;
+      transition: all 0.2s;
+      color: #FFFFFF;
+      border-radius: 16px;
+      background-color: #FFFFFF; }
+    html body .footer-menu i {
+      color: #FFFFFF; }
+    html body .footer-menu .home:hover,
+    html body .footer-menu .shop:hover,
+    html body .footer-menu .cart:hover,
+    html body .footer-menu .profile:hover,
+    html body .footer-menu .menu:hover {
+      transition: all 0.2s;
+      color: #FFFFFF;
+      background-color: #ffc857ff;
+      box-shadow: 0px 16px 16px 0px #fe5f00ff; }
+    html body .footer-menu i {
+      color: #FFFFFF;
+      font-size: 32px; }
+    html body .footer-menu i:hover {
+      color: #2e4052ff; }
+    html body .footer-menu .home:active,
+    html body .footer-menu .shop:active,
+    html body .footer-menu .cart:active,
+    html body .footer-menu .profile:active,
+    html body .footer-menu .menu:active {
+      transition: all 0s;
+      background-color: #000000;
+      box-shadow: 0px 16px 16px -8px #fe5f00ff; }
+      html body .footer-menu .home:active i,
+      html body .footer-menu .shop:active i,
+      html body .footer-menu .cart:active i,
+      html body .footer-menu .profile:active i,
+      html body .footer-menu .menu:active i {
+        color: #ffc857ff; }
+    html body .footer-menu i {
+      color: #2e4052ff; }
+    html body .footer-menu i:active {
+      color: #ffc857ff; }
+  html body .wall {
+    width: 100%; }
+    html body .wall .dot {
+      width: 100%;
+      height: 24px;
+      margin: 0;
+      opacity: 0;
+      font-size: 24px;
+      line-height: 0; }
+  html body .emptyness {
+    width: 100%;
+    height: 20%;
+    opacity: 0; }
+    html body .emptyness p {
+      font-size: 32px; }
+
+/*# sourceMappingURL=menu.css.map */

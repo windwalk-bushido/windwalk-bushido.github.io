@@ -1,0 +1,104 @@
+html body .wall .image-post, html body .wall .video-post, html body .wall .audio-post, html body .wall .download-post, html body .wall .text-post, html body .wall .post-left,
+html body .wall .post-right,
+html body .wall .post-center {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center; }
+
+@font-face: {
+  font-family: Iosevka;
+  src: url(Iosevka/iosevka-extendedmedium.ttf); }
+html body .wall p {
+  text-align: justify;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1.2; }
+html body .wall .image-post {
+  width: 90%;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  html body .wall .image-post img {
+    width: 100%;
+    height: inherit;
+    border-radius: 8px;
+    box-shadow: 0px 16px 16px 0px #000000; }
+  html body .wall .image-post .quotation {
+    z-index: -1;
+    width: 100%;
+    margin-top: -16px;
+    padding: 16px;
+    padding-top: 36px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #4a7856ff; }
+html body .wall .video-post {
+  width: 90%;
+  height: inherit; }
+  html body .wall .video-post video {
+    width: 100%;
+    opacity: 1;
+    border-radius: 8px;
+    box-shadow: 0px 16px 16px 0px #000000; }
+  html body .wall .video-post .quotation {
+    z-index: -1;
+    width: 100%;
+    margin-top: -16px;
+    padding: 16px;
+    padding-top: 36px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #4a7856ff; }
+html body .wall .audio-post {
+  width: 90%;
+  height: inherit; }
+  html body .wall .audio-post audio {
+    width: 100%;
+    opacity: 1;
+    border-radius: 8px;
+    box-shadow: 0px 16px 16px 0px #000000; }
+  html body .wall .audio-post .quotation {
+    z-index: -1;
+    width: 100%;
+    margin-top: -16px;
+    padding: 16px;
+    padding-top: 36px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #4a7856ff; }
+html body .wall .download-post {
+  width: 90%;
+  height: inherit; }
+  html body .wall .download-post a {
+    width: 100%;
+    padding: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #1D2124;
+    box-shadow: 0px 16px 16px 0px #000000;
+    font-family: Verdana, monospace;
+    font-size: 20px; }
+  html body .wall .download-post a:hover {
+    color: #84bcdaff; }
+  html body .wall .download-post a:visited {
+    color: #fe5f00ff; }
+  html body .wall .download-post .quotation {
+    z-index: -1;
+    width: 100%;
+    margin-top: -16px;
+    padding: 16px;
+    padding-top: 36px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #4a7856ff; }
+html body .wall .text-post {
+  width: 90%; }
+  html body .wall .text-post img {
+    width: 90%;
+    height: inherit; }
+
+/*# sourceMappingURL=posts.css.map */
