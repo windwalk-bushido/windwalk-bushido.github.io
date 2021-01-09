@@ -31,15 +31,15 @@ html {
     font-family: "Monaco", monospace;
     font-size: 32px; }
   html body .footer-menu {
+    margin: 0;
+    padding: 0;
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
     justify-content: space-evenly;
     width: 100%;
-    height: 10%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    height: 92px;
     background-color: #343A40; }
     html body .footer-menu .home,
     html body .footer-menu .shop,
