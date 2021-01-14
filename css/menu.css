@@ -75,7 +75,7 @@ html {
     html body .footer-menu .menu:active {
       transition: all 0s;
       background-color: #000000;
-      box-shadow: 0px 16px 16px -8px #fe5f00ff; }
+      box-shadow: 0px 16px 16px -8px #000000; }
       html body .footer-menu .home:active i,
       html body .footer-menu .shop:active i,
       html body .footer-menu .cart:active i,
@@ -86,6 +86,15 @@ html {
       color: #2e4052ff; }
     html body .footer-menu i:active {
       color: #ffc857ff; }
+    html body .footer-menu .active {
+      pointer-events: none;
+      transition: all 0s;
+      background-color: #000000;
+      box-shadow: 0px 16px 16px -8px #000000; }
+      html body .footer-menu .active i {
+        color: #ffc857ff; }
+    html body .footer-menu .active:hover i {
+      color: #2e4052ff; }
   html body .wall {
     width: 100%; }
     html body .wall .dot {

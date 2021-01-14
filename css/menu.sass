@@ -124,7 +124,7 @@ html
                                 transition: all 0s
 
                                 background-color: $black
-                                box-shadow: 0px 16px 16px -8px $orange
+                                box-shadow: 0px 16px 16px -8px $black
 
                                 i
                                         color: $yellow
@@ -134,6 +134,20 @@ html
 
                         i:active
                                 color: $yellow
+
+                        .active
+                                pointer-events: none
+                                transition: all 0s
+
+                                background-color: $black
+                                box-shadow: 0px 16px 16px -8px $black
+
+                                i
+                                        color: $yellow
+
+                        .active:hover
+                                i
+                                        color: $darkblue
 
                 .wall
                         width: 100%
